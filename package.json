@@ -1,6 +1,6 @@
 {
-  "name": "manifesto-app",
-  "version": "0.1.0",
+  "name": "manifesto",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -9,9 +9,16 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "material-icons": "^0.2.3",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",
+    "vue-bus": "^1.2.0",
+    "vue-clipboard2": "^0.2.1",
+    "vue-gh-corners": "^2.0.0",
+    "vue-highlightjs": "^1.3.3",
     "vue-router": "^3.0.1",
+    "vue-scrolly": "^0.9.3",
+    "vuesax": "^3.8.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

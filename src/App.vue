@@ -1,29 +1,41 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 <style lang="scss">
-#app {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+$accent: #05668d;
+$code-background: #f0f3bd;
+$fade: #02c39a;
+
+h2,
+h3 {
+  font-family: "Playfair Display", serif !important;
+  color: $accent;
+}
+
+hr {
+  width: 7rem;
+  border: 1.5px solid;
+  color: #02c39a;
+  margin: 5px 0 2px 0;
+}
+
+#app,
+.vs-tooltip {
+  font-family: "Lato", "Avenir", sans-serif !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
 }
-#nav {
-  padding: 30px;
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
+
+.vs-con-input-label,
+.con-select {
+  width: auto !important;
+  margin-top: 0.8rem;
+}
+
+.vs-input--placeholder {
+  opacity: 0.4;
 }
 </style>
