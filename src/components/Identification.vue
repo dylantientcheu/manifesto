@@ -157,7 +157,7 @@
 
     <br><br><br>
 
-    <div id="app-id">
+    <div id="rel-apps">
       <vs-row>
         <vs-col
           vs-type="flex"
