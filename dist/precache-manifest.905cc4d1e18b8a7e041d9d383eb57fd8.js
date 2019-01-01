@@ -28,19 +28,19 @@ self.__precacheManifest = [
     "url": "/manifesto/fonts/MaterialIcons-Regular.012cf6a1.woff"
   },
   {
-    "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
-    "url": "/manifesto/fonts/MaterialIcons-Regular.a37b0c01.ttf"
-  },
-  {
     "revision": "e79bfd88537def476913f3ed52f4f4b3",
     "url": "/manifesto/fonts/MaterialIcons-Regular.e79bfd88.eot"
+  },
+  {
+    "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
+    "url": "/manifesto/fonts/MaterialIcons-Regular.a37b0c01.ttf"
   },
   {
     "revision": "96a443cbac1f7feac7d2a8d4f920175b",
     "url": "/manifesto/img/logo.96a443cb.png"
   },
   {
-    "revision": "ad9af0208310da5b103202d007e13f71",
+    "revision": "ee2d891d04ab550d287732c4f747eb68",
     "url": "/manifesto/index.html"
   },
   {
