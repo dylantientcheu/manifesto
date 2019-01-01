@@ -14,10 +14,10 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.87144db5da1a9d3a024423014ac8c561.js"
+  "/manifesto/precache-manifest.550dc5c3f7f5e3524d4cdd7afd7724f2.js"
 );
 
-workbox.core.setCacheNameDetails({prefix: "manifesto-app"});
+workbox.core.setCacheNameDetails({prefix: "manifesto"});
 
 /**
  * The workboxSW.precacheAndRoute() method efficiently caches and responds to
