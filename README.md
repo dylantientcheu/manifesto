@@ -71,8 +71,9 @@ $ npm run test:unit
 
 - [VueJS](https://vuejs.org/)
 - [VueSax](https://lusaxweb.github.io/vuesax/)
-- [![Buy me a beer](https://img.shields.io/beerpay/blurdylan/manifesto.svg)](buymeacoff.ee/dylantientcheu)
 - 💓
+
+[![Buy me a beer](https://img.shields.io/beerpay/blurdylan/manifesto.svg)](buymeacoff.ee/dylantientcheu)
 
 ## License
 
