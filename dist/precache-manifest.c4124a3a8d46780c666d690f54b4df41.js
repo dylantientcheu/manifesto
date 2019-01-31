@@ -1,15 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "8871b0dd4d9fc9649819",
-    "url": "/manifesto/js/about.a956700f.js"
+    "revision": "b762d7ce2d87d29feac2",
+    "url": "/manifesto/css/app.42c5c611.css"
   },
   {
-    "revision": "541a426acd039dad1902",
-    "url": "/manifesto/css/app.ac9f9e63.css"
-  },
-  {
-    "revision": "541a426acd039dad1902",
-    "url": "/manifesto/js/app.c38caf39.js"
+    "revision": "b762d7ce2d87d29feac2",
+    "url": "/manifesto/js/app.24c67870.js"
   },
   {
     "revision": "22e04d04127ffaa40233",
@@ -28,19 +24,19 @@ self.__precacheManifest = [
     "url": "/manifesto/fonts/MaterialIcons-Regular.012cf6a1.woff"
   },
   {
-    "revision": "e79bfd88537def476913f3ed52f4f4b3",
-    "url": "/manifesto/fonts/MaterialIcons-Regular.e79bfd88.eot"
-  },
-  {
     "revision": "a37b0c01c0baf1888ca812cc0508f6e2",
     "url": "/manifesto/fonts/MaterialIcons-Regular.a37b0c01.ttf"
+  },
+  {
+    "revision": "e79bfd88537def476913f3ed52f4f4b3",
+    "url": "/manifesto/fonts/MaterialIcons-Regular.e79bfd88.eot"
   },
   {
     "revision": "96a443cbac1f7feac7d2a8d4f920175b",
     "url": "/manifesto/img/logo.96a443cb.png"
   },
   {
-    "revision": "ee2d891d04ab550d287732c4f747eb68",
+    "revision": "6fa20abaf5eb0fb7767145f8e4888ebc",
     "url": "/manifesto/index.html"
   },
   {
