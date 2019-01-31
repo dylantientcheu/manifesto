@@ -18,6 +18,8 @@
 
 `manifesto` gives you all the fields handled by a manifest along with documentation on each of them at your finger tips 😎.
 
+Manifesto also works with the CLI 👉 [Manifesto CLI](https://github.com/blurdylan/manifesto-cli)
+
 ![Basic example](static/usage.gif)
 
 ## Usage
