@@ -15,17 +15,17 @@
 
       <vs-navbar-item>
         <a
-          href="https://www.w3.org/TR/appmanifest/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >W3 Specs</a>
-      </vs-navbar-item>
-      <vs-navbar-item>
-        <a
           href="https://developer.mozilla.org/en-US/docs/Web/Manifest"
           target="_blank"
           rel="noopener noreferrer"
-        >MDN Documentation</a>
+        >MDN</a>
+      </vs-navbar-item>
+      <vs-navbar-item>
+        <a
+          href="https://github.com/blurdylan/manifesto-cli"
+          target="_blank"
+          rel="noopener noreferrer"
+        >CLI Tool</a>
       </vs-navbar-item>
       <vs-navbar-item>
         <a href="#">Github</a>
