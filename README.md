@@ -20,7 +20,6 @@
 
 Manifesto also works with the CLI 👉 [Manifesto CLI](https://github.com/blurdylan/manifesto-cli)
 
-![Basic example](static/usage.gif)
 
 ## Usage
 
