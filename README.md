@@ -73,7 +73,7 @@ $ npm run test:unit
 - [VueSax](https://lusaxweb.github.io/vuesax/)
 - 💓
 
-[![Buy me a beer](https://img.shields.io/beerpay/blurdylan/manifesto.svg)](buymeacoff.ee/dylantientcheu)
+[![Buy me a beer](https://img.shields.io/beerpay/blurdylan/manifesto.svg)](https://buymeacoff.ee/dylantientcheu)
 
 ## License
 
