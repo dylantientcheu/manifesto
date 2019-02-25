@@ -1,8 +1,13 @@
 # [![Manifesto](static/banner.png)](https://github.com/blurdylan/manifesto-cli)
 
+<p align="center">
+<a href="https://twitter.com/dylantientcheu"><img src="https://img.shields.io/twitter/follow/dylantientcheu.svg?style=social&amp;label=Follow" alt="Twitter Follow" /></a> <a href="https://github.com/blurdylan/manifesto/graphs/commit-activity"><img src="https://badgen.net/github/last-commit/blurdylan/manifesto-cli" alt="Commit Status" /></a> <a href="https://github.com/blurdylan/manifesto/blob/master/license"><img src="https://badgen.net/badge/License/MIT/blue" alt="MIT license" /></a> <img src="https://img.shields.io/github/stars/blurdylan/manifesto.svg" alt="Stars" />
+</p>
+
+----
+
 > ⚡️ A PWA that helps generate a manifest file for your PWA.
 
-[![Twitter Follow](https://img.shields.io/twitter/follow/dylantientcheu.svg?style=social&label=Follow)](https://twitter.com/dylantientcheu) [![Commit Status](https://badgen.net/github/last-commit/blurdylan/manifesto-cli)](https://github.com/blurdylan/manifesto/graphs/commit-activity) [![MIT license](https://badgen.net/badge/License/MIT/blue)](https://github.com/blurdylan/manifesto/blob/master/license) ![Stars](https://img.shields.io/github/stars/blurdylan/manifesto.svg)
 
 ## Table of Contents
 
@@ -20,7 +25,6 @@
 
 Manifesto also works with the CLI 👉 [Manifesto CLI](https://github.com/blurdylan/manifesto-cli)
 
-![Basic example](static/usage.gif)
 
 ## Usage
 
@@ -73,7 +77,7 @@ $ npm run test:unit
 - [VueSax](https://lusaxweb.github.io/vuesax/)
 - 💓
 
-[![Buy me a beer](https://img.shields.io/beerpay/blurdylan/manifesto.svg)](buymeacoff.ee/dylantientcheu)
+[![Buy me a beer](https://img.shields.io/beerpay/blurdylan/manifesto.svg)](https://buymeacoff.ee/dylantientcheu)
 
 ## License
 
