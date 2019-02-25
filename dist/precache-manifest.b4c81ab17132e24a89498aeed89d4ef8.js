@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "21506488756ae6a3dbb7",
+    "revision": "aeeaabfa8905a6904571",
     "url": "/manifesto/css/app.d066245d.css"
   },
   {
-    "revision": "21506488756ae6a3dbb7",
-    "url": "/manifesto/js/app.dc99d1f5.js"
+    "revision": "aeeaabfa8905a6904571",
+    "url": "/manifesto/js/app.37da8e43.js"
   },
   {
     "revision": "afcd3913e36a804bf166",
@@ -36,15 +36,15 @@ self.__precacheManifest = [
     "url": "/manifesto/img/logo.96a443cb.png"
   },
   {
-    "revision": "2bb1c9c09af306c4e65d288a0c7cae85",
+    "revision": "6c130225433a6c17001a2fb734739124",
     "url": "/manifesto/index.html"
-  },
-  {
-    "revision": "830c61e28a33fcf5b6bdf0d274ed755e",
-    "url": "/manifesto/favicon.png"
   },
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/manifesto/robots.txt"
+  },
+  {
+    "revision": "830c61e28a33fcf5b6bdf0d274ed755e",
+    "url": "/manifesto/favicon.png"
   }
 ];
