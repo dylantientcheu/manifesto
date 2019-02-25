@@ -1,3 +1,4 @@
 module.exports = {
-  baseUrl: "/manifesto/"
+  baseUrl: "/manifesto/",
+  publicPath: "/manifesto/"
 };
