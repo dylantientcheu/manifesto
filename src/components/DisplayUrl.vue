@@ -26,7 +26,7 @@
           color="#05668d"
           text="Defines the developers’ preferred display mode for the website."
           position="bottom"
-          delay=".5s"
+          delay="1.5s"
         >
           <vs-select
             @change="addData()"
@@ -47,7 +47,7 @@
           color="#05668d"
           text="Defines the default orientation for all the website's top level browsing contexts."
           position="bottom"
-          delay=".5s"
+          delay="1.5s"
         >
           <vs-select
             @change="addData()"
