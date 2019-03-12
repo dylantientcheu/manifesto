@@ -16,10 +16,9 @@
           vs-align="flex-end"
           vs-w="2"
         >
-
         </vs-col>
       </vs-row>
-      <hr>
+      <hr />
       <label class="section-info">Display mode, theming and icons</label>
       <div class="section-form">
         <vs-tooltip
@@ -91,8 +90,8 @@
             placeholder="#ffffff"
           />
         </vs-tooltip>
-        <br>
-        <br>
+        <br />
+        <br />
         <vs-row>
           <vs-col
             vs-type="flex"
@@ -149,12 +148,7 @@
               />
             </vs-tooltip>
           </vs-col>
-          <vs-col
-            vs-type="flex"
-            vs-justify="center"
-            vs-align="center"
-            vs-w="3"
-          >
+          <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="3">
             <vs-tooltip
               color="#05668d"
               text="The type of image choosen."
@@ -193,9 +187,9 @@
       </div>
     </div>
 
-    <br>
-    <br>
-    <br>
+    <br />
+    <br />
+    <br />
 
     <div id="url">
       <vs-row>
@@ -213,10 +207,9 @@
           vs-align="flex-end"
           vs-w="2"
         >
-
         </vs-col>
       </vs-row>
-      <hr>
+      <hr />
       <label class="section-info">Manifest's scope throughout the app</label>
       <div class="section-form">
         <vs-tooltip
@@ -247,7 +240,6 @@
           />
         </vs-tooltip>
       </div>
-
     </div>
   </div>
 </template>
@@ -350,5 +342,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

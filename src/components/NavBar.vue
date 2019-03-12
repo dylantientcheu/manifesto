@@ -1,15 +1,8 @@
 <template>
   <div class="con-type-example">
-    <vs-navbar
-      type="gradient"
-      v-model="activeItem"
-      class="navbarx"
-    >
+    <vs-navbar type="gradient" v-model="activeItem" class="navbarx">
       <vs-navbar-title>
-        <img
-          src="../assets/logo.png"
-          alt="logo"
-        >
+        <img src="../assets/logo.png" alt="logo" />
       </vs-navbar-title>
       <vs-spacer></vs-spacer>
 
@@ -18,14 +11,16 @@
           href="https://developer.mozilla.org/en-US/docs/Web/Manifest"
           target="_blank"
           rel="noopener noreferrer"
-        >MDN</a>
+          >MDN</a
+        >
       </vs-navbar-item>
       <vs-navbar-item>
         <a
           href="https://github.com/blurdylan/manifesto-cli"
           target="_blank"
           rel="noopener noreferrer"
-        >CLI Tool</a>
+          >CLI Tool</a
+        >
       </vs-navbar-item>
       <vs-navbar-item>
         <a href="#">Github</a>

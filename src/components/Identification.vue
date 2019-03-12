@@ -16,16 +16,17 @@
           vs-align="flex-end"
           vs-w="2"
         >
-
         </vs-col>
       </vs-row>
 
-      <hr>
-      <label class="section-info">Link the manifest to your app by adding this in your app's entry HTML file</label>
+      <hr />
+      <label class="section-info"
+        >Link the manifest to your app by adding this in your app's entry HTML
+        file</label
+      >
       <div class="section-form">
         <vs-card>
           <div slot="header">
-
             <vs-row>
               <vs-col
                 vs-type="flex"
@@ -33,7 +34,6 @@
                 vs-align="center"
                 vs-w="8"
               >
-
               </vs-col>
               <vs-col
                 vs-type="flex"
@@ -47,7 +47,8 @@
                   v-clipboard:copy="htmlCode"
                   v-clipboard:success="onCopy"
                   v-clipboard:error="onCopyError"
-                >Copy</vs-button>
+                  >Copy</vs-button
+                >
               </vs-col>
             </vs-row>
           </div>
@@ -58,11 +59,10 @@
       </div>
     </div>
 
-    <br>
-    <br>
+    <br />
+    <br />
 
     <div id="app-id">
-
       <vs-row>
         <vs-col
           vs-type="flex"
@@ -78,10 +78,9 @@
           vs-align="flex-end"
           vs-w="2"
         >
-
         </vs-col>
       </vs-row>
-      <hr>
+      <hr />
       <label class="section-info">Name, description and app's Language</label>
       <div class="section-form">
         <vs-tooltip
@@ -155,7 +154,7 @@
       </div>
     </div>
 
-    <br><br><br>
+    <br /><br /><br />
 
     <div id="rel-apps">
       <vs-row>
@@ -173,11 +172,13 @@
           vs-align="flex-end"
           vs-w="2"
         >
-
         </vs-col>
       </vs-row>
-      <hr>
-      <label class="section-info">Ability to grab the native app. This should only be used if the related native apps really do offer something that the website can't.</label>
+      <hr />
+      <label class="section-info"
+        >Ability to grab the native app. This should only be used if the related
+        native apps really do offer something that the website can't.</label
+      >
 
       <div class="section-form">
         <vs-row>
@@ -237,12 +238,7 @@
               />
             </vs-tooltip>
           </vs-col>
-          <vs-col
-            vs-type="flex"
-            vs-justify="center"
-            vs-align="center"
-            vs-w="4"
-          >
+          <vs-col vs-type="flex" vs-justify="center" vs-align="center" vs-w="4">
             <vs-tooltip
               color="#05668d"
               text="The url of the related app."
@@ -278,7 +274,6 @@
             </vs-tooltip>
           </vs-col>
         </vs-row>
-
       </div>
     </div>
   </div>
@@ -286,6 +281,7 @@
 
 <script>
 export default {
+  // this is the left column component
   name: "identification",
   data: () => ({
     appName: "",
@@ -349,5 +345,4 @@ export default {
 };
 </script>
 
-<style>
-</style>
+<style></style>

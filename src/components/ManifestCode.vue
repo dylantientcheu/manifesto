@@ -1,7 +1,6 @@
 <template>
   <vs-card>
     <div slot="header">
-
       <vs-row>
         <vs-col
           vs-type="flex"
@@ -13,19 +12,15 @@
             manifest.json
           </h3>
         </vs-col>
-        <vs-col
-          vs-type="flex"
-          vs-justify="flex-end"
-          vs-align="center"
-          vs-w="4"
-        >
+        <vs-col vs-type="flex" vs-justify="flex-end" vs-align="center" vs-w="4">
           <vs-button
             color="success"
             type="gradient"
             v-clipboard:copy="manifestCode"
             v-clipboard:success="onCopy"
             v-clipboard:error="onCopyError"
-          >Copy</vs-button>
+            >Copy</vs-button
+          >
         </vs-col>
       </vs-row>
     </div>
