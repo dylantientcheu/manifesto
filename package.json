@@ -19,6 +19,7 @@
     "vue-highlightjs": "^1.3.3",
     "vue-router": "^3.0.2",
     "vue-scrolly": "^0.9.3",
+    "vue-testing-library": "^0.15.1",
     "vuesax": "^3.8.0",
     "vuex": "^3.0.1"
   },
