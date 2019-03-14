@@ -53,14 +53,7 @@ export default {
     Identification,
     ManifestCode,
     DisplayUrl
-  },
-  data: () => ({
-    activeItem: 0,
-    appName: "",
-    shortName: "",
-    description: "",
-    language: ""
-  })
+  }
 };
 </script>
 
