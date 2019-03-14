@@ -336,7 +336,7 @@ export default {
 
     onCopyError: function() {
       this.$vs.notify({
-        text: "Copy failed",
+        text: "Copy failed, try again.",
         color: "danger"
       });
       console.log("Failed to copy texts");
