@@ -1,22 +1,14 @@
-// import vue test utilities
+/* // import vue test utilities
 import { shallowMount } from "@vue/test-utils";
 
 // import vue and libraries
 import Vue from "vue";
-import VueBus from "vue-bus";
-import Vuesax from "vuesax";
-import VueClipboard from "vue-clipboard2";
-import VueHighlightJS from "vue-highlightjs";
+
 
 // import components
 import DisplayUrl from "@/components/DisplayUrl.vue";
 import ManifestCode from "@/components/ManifestCode.vue";
 
-// declare the use of libraries
-Vue.use(VueHighlightJS);
-Vue.use(VueClipboard);
-Vue.use(VueBus);
-Vue.use(Vuesax);
 
 describe("Identification Component", () => {
   // Inspect the raw components options
@@ -95,3 +87,4 @@ describe("Identification Component", () => {
     expect(codeBox.html()).toContain("Test Url");
   });
 });
+ */
