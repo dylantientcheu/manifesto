@@ -23,7 +23,7 @@ export default defineComponent({
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>`,
-      apps: [{ platform: '', id: '', url: '' }],
+      apps: [{ platform: '', id: '', url: '' }] as any,
     })
 
     const addData = () => {
@@ -34,6 +34,7 @@ export default defineComponent({
         lang: information.lang,
         dir: information.dir,
         categories: information.categories,
+        apps: information.apps,
       })
     }
 
@@ -225,9 +226,9 @@ export default defineComponent({
             <template #="{ value }">
               <div style="width: 100%;">
                 <n-input-group>
-                  <n-input v-model:value="value.platform" placeholder="Platform" :style="{ width: '33%' }" type="input" />
-                  <n-input v-model:value="value.id" placeholder="id" :style="{ width: '33%' }" type="input" />
-                  <n-input v-model:value="value.url" placeholder="url" :style="{ width: '33%' }" type="input" />
+                  <n-input v-model:value="value.platform" placeholder="Platform" :style="{ width: '33%' }" type="input" @blur="addData" />
+                  <n-input v-model:value="value.id" placeholder="id" :style="{ width: '33%' }" type="input" @blur="addData" />
+                  <n-input v-model:value="value.url" placeholder="url" :style="{ width: '33%' }" type="input" @blur="addData" />
                 </n-input-group>
               </div>
             </template>
