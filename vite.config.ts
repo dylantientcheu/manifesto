@@ -7,6 +7,7 @@ import { VitePWA } from 'vite-plugin-pwa'
 import ViteIcons, { ViteIconsResolver } from 'vite-plugin-icons'
 
 export default defineConfig({
+  base: '/manifesto/',
   plugins: [
     Vue(),
     ViteComponents({
