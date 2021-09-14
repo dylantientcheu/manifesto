@@ -54,7 +54,8 @@ npm run build
 ## Built With
 
 - [VueJS](https://vuejs.org/)
-- [VueSax](https://www.naiveui.com/en-US/os-theme)
+- [Vite](https://vitejs.dev/)
+- [Naive UI](https://www.naiveui.com/en-US/os-theme)
 - 💓
 
 ## License
